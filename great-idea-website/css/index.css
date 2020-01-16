@@ -65,26 +65,85 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.featuresabout{
-	text-align:stretch;
-  width:25%;
-  display:inline-block;
-  margin:0 3.5%;
+nav {
+	display: inline-block;
+
 }
 
-.SPV{
-	text-align:stretch;
-  width:25%;
+a {
+	text-decoration: none;
+	color: #C1C1C1;
+	padding: 1.5rem;
+	display: inline-block;
+}
+
+.header-text {
+	display: inline-block;
+	text-align: center;
+}
+
+.btn {
+	display: block;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.featuresabout {
+  width:100%;
   display:inline-block;
-  margin:0 3.5%;
+}
+
+.piccode img {
+	width: 100%;
+}
+
+.logo{
+	display:inline-block;
+  }
+
+  .logo img{
+	max-width:100%;
+  }
+
+.featuresabout .content-section {
+	display: inline-block;
+	width: 49%;
+}
+
+.SPV .content-section {
+	display: inline-block;
+	width: 33%;
+}
+
+.SPV, .featuresabout {
+	margin: 2rem 0;
+}
+
+hr {
+	margin: 2rem 0;
+	color: #000000;
 }
 
 h1{
 	font-size: 75px;
 }
 
-img{
-	align-content: stretch;
+.header {
+	font-size: 0;
+}
+
+.header .header-text-content {
+	display: inline-block;
+	width: 50%;
+}
+
+.header .header-img-content {
+	display: inline-block;
+	width:50%;
+	
 }
 
 footer {
