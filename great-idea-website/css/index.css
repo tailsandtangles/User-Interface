@@ -75,7 +75,6 @@ h1, h2, h3, h4, h5 {
 .SPV{
 	text-align:stretch;
   width:25%;
-  
   display:inline-block;
   margin:0 3.5%;
 }
@@ -86,4 +85,8 @@ h1{
 
 img{
 	align-content: stretch;
+}
+
+footer {
+	text-align: center;
 }
