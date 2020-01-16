@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	display: inline-block;
-
+	width:100%;
 }
 
 a {
@@ -75,6 +75,11 @@ a {
 	color: #C1C1C1;
 	padding: 1.5rem;
 	display: inline-block;
+	width: 10%;
+}
+
+a:first-child {
+	padding-left: 0;
 }
 
 .header-text {
@@ -83,7 +88,16 @@ a {
 }
 
 .btn {
-	display: block;
+	width: 12rem;
+	padding: 0.5rem;
+	border: 1px solid black;
+	background-color: white;
+	transition: background-color 1s ease;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
 }
 
 .container {
@@ -98,6 +112,13 @@ a {
 
 .piccode img {
 	width: 100%;
+}
+
+.logo-container {
+	display: inline-block;
+	text-align: right;
+	width: 37%;
+	vertical-align: middle;
 }
 
 .logo{
@@ -138,14 +159,21 @@ h1{
 .header .header-text-content {
 	display: inline-block;
 	width: 50%;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .header .header-img-content {
 	display: inline-block;
 	width:50%;
-	
+	vertical-align: middle;
+}
+
+.contact p {
+	margin: 1rem 0;
 }
 
 footer {
 	text-align: center;
+	padding: 10%;
 }
